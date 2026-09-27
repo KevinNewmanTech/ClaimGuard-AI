@@ -114,3 +114,47 @@ The architecture will be developed iteratively. Design decisions, implementation
 ## Disclaimer
 
 ClaimGuard AI is an independent portfolio architecture case study and is not affiliated with an insurance carrier, AWS, Microsoft, or any other organization. All scenarios and data used in the project will be fictional or synthetic. No real customer, patient, policyholder, or protected personal information will be used.
+---
+
+## Project Documentation
+
+This repository documents ClaimGuard AI from business requirements through architecture, resilience, cost governance, failure testing, and cross-cloud design.
+
+### Executive Case Study
+- [Full Enterprise Solutions Architecture Case Study](CASE-STUDY.md)
+
+### Business & Architecture
+- [Business and Technical Requirements](business-case/requirements.md)
+- [Architecture Decisions](architecture/decisions.md)
+- [AWS Architecture](aws-architecture.md)
+- [AWS Architecture Diagram](architecture/claimguard-aws-diagram.md)
+- [Microsoft Azure Architecture & Cross-Cloud Mapping](architecture/azure-architecture.md)
+
+### Reliability, Security & Cost Governance
+- [FinOps & Cost Optimization Strategy](finops/cost-model.md)
+- [Failure & Incident Scenarios](testing/failure-scenarios.md)
+
+---
+
+## Architecture Highlights
+
+ClaimGuard AI demonstrates an enterprise architecture designed around:
+
+- Secure and durable insurance claim intake
+- Separation of structured claim data from original evidence
+- Asynchronous document processing and catastrophe-volume resilience
+- AI-assisted document extraction, grounded retrieval, and summarization
+- Human-in-the-loop verification and decision authority
+- Fine-grained authorization and sensitive-data protection
+- Security monitoring, automated containment, and protected audit evidence
+- Multi-region disaster recovery with critical claim intake prioritized for restoration
+- FinOps controls that protect critical customer services before reducing variable cloud and AI spending
+- AWS-first architecture with an independently evaluated Microsoft Azure implementation
+
+---
+
+## Portfolio Scope
+
+ClaimGuard AI is an independent architecture case study using a fictional insurance carrier and synthetic scenarios. It demonstrates solution architecture decisions, tradeoff analysis, cloud service selection, security and reliability planning, FinOps governance, failure-mode analysis, and cross-cloud architectural reasoning.
+
+It does not represent a production deployment for a real insurance carrier.
